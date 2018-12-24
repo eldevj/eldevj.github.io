@@ -1,0 +1,41 @@
+html, body{
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	height:100%;
+}
+.sidebar{
+	width:260px;
+	background-color:skyblue;
+	height:100%;
+	position:fixed;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:600;
+}
+.sidebar div{
+	margin-top:25px;
+	color:rgba(255,255,255,.5);
+}
+.sidebar img{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	border:10px solid lightgray;
+	margin-top:250px;
+}
+.mainBody{
+	display:grid;
+	grid-template-columns: 300px auto;
+	background-color:wheat;
+	height:100%;
+}
+.content{
+	grid-column-start:2;
+}
+#name{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#name h1{
+	font-size:80px;
+	margin:0;
+}
