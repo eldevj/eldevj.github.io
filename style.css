@@ -5,7 +5,7 @@ html, body{
 }
 .sidebar{
 	width:260px;
-	background-color:skyblue;
+	background-color:#65A48F;
 	height:100%;
 	position:fixed;
 	text-align:center;
@@ -13,29 +13,35 @@ html, body{
 	font-weight:600;
 }
 .sidebar div{
-	margin-top:25px;
 	color:rgba(255,255,255,.5);
+}
+.contentsItem{
+	margin-top:4vh;
 }
 .sidebar img{
 	width:150px;
 	height:150px;
 	border-radius:50%;
-	border:10px solid lightgray;
-	margin-top:250px;
+	border:10px solid rgba(211,211,211,.3);
+}
+#sideAdjust{
+	height:25vh;
+}
+#mainAdjust{
+	height:40vh;
 }
 .mainBody{
 	display:grid;
 	grid-template-columns: 300px auto;
 	background-color:wheat;
 	height:100%;
+	padding-right:30px;
 }
 .content{
 	grid-column-start:2;
 }
-#name{
-	font-family: 'Roboto Condensed', sans-serif;
-}
 #name h1{
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size:80px;
 	margin:0;
 }
