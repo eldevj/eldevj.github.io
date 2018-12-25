@@ -42,7 +42,11 @@ a:active {
 #sideAdjust{
 	height:35vh;
 }
-
+#profile{
+	width:70vw;
+	text-align:justify;
+	margin-top:20px;
+}
 .mainBody{
 	display:grid;
 	grid-template-columns: 300px auto;
@@ -69,6 +73,9 @@ a:active {
 	height:100%;
 	padding:30vh 0 30vh 0;
 }
+.box p {
+	margin:0;
+}
 .title{
 	margin-top:40vh;
 }
@@ -78,4 +85,18 @@ a:active {
 .boxlast{
 	height:100%;
 	padding:30vh 0 50vh 0;
+}
+.boxlast ul li{
+	font-family: 'Open Sans', sans-serif;
+}
+.edh3{
+	text-transform: uppercase;
+}
+h3{
+	margin:0;
+}
+.dates {
+	font-weight:lighter;
+	font-size:15px;
+	font-style:italic;
 }
