@@ -3,6 +3,21 @@ html, body{
 	font-family: 'Open Sans', sans-serif;
 	height:100%;
 }
+a:link {
+  color:rgba(255,255,255,.5);
+  text-decoration: none;
+}
+a:visited {
+  color:rgba(255,255,255,.5);
+}
+a:hover {
+  color:rgba(255,255,255,.5);
+  font-size:18px;
+}
+a:active {
+  color:rgba(255,255,255,.5);
+}
+
 .sidebar{
 	width:260px;
 	background-color:#65A48F;
