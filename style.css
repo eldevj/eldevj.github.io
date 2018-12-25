@@ -77,14 +77,10 @@ a:active {
 	margin:0;
 }
 .title{
-	margin-top:40vh;
-}
-.titlelast{
-	margin-top:0;
+	margin-top:30vh;
 }
 .boxlast{
-	height:100%;
-	padding:30vh 0 50vh 0;
+	padding:50vh 0 50vh 0;
 }
 .boxlast ul li{
 	font-family: 'Open Sans', sans-serif;
@@ -99,4 +95,7 @@ h3{
 	font-weight:lighter;
 	font-size:15px;
 	font-style:italic;
+}
+#footer{
+	margin-top:150px;
 }
