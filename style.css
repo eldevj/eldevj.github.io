@@ -115,7 +115,8 @@ p {
 	line-height:1.6;
 }
 #specialBackground{
-	background-image:url(images/bg.jpg);
+	background-image:url(
+        eldevj.github.io/images/bg.jpg);
 	background-repeat: no-repeat; 
 	background-size: cover; 
 	height:100%; 
