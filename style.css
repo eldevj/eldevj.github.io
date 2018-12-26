@@ -7,6 +7,10 @@ html, body{
 #portfolio a:link{
 	color:skyblue;
 }
+#portfolio a:hover{
+	color:skyblue;
+	font-size:15px;
+}
 a:link {
   color:rgba(255,255,255,.5);
   text-decoration: none;
