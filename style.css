@@ -28,7 +28,7 @@ a:active {
 }
 .sidebar{
 	width:260px;
-	background-color:#65A48F;
+	background-color:darkred;
 	height:100%;
 	position:fixed;
 	text-align:center;
