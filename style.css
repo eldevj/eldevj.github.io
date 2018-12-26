@@ -118,7 +118,7 @@ p {
 	background-image:url(https://eldevj.github.io/images/bg.jpg);
 	background-repeat: no-repeat; 
 	background-size: cover; 
-	height:100vh; 
+	height:100%; 
 	width:100vw; 
 	position:fixed; 
 	z-index:-1; 
