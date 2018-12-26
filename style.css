@@ -3,6 +3,9 @@ html, body{
 	font-family: 'Open Sans', sans-serif;
 	height:100%;
 	scroll-behavior: smooth;
+	line-height:1.8;
+	letter-spacing:1.5px;
+	word-spacing:1.5px;
 }
 #portfolio a:link{
 	color:black;
