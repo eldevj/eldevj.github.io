@@ -4,6 +4,9 @@ html, body{
 	height:100%;
 	scroll-behavior: smooth;
 }
+#portfolio a:link{
+	color:skyblue;
+}
 a:link {
   color:rgba(255,255,255,.5);
   text-decoration: none;
