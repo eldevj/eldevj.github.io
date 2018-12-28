@@ -63,7 +63,7 @@ a:active {
 	padding-left:300px;
 }
 .content{
-	grid-column-start:2;
+	/*grid-column-start:2;*/
 }
 #name h1{
 	font-family: 'Roboto Condensed', sans-serif;
@@ -124,4 +124,55 @@ p {
 	z-index:-1; 
 	opacity:0.3;
 	margin-left:10vw;
+}
+#phoneimg{
+	display:none;
+}
+@media only screen and (max-width: 500px) {
+	body{
+		text-align:center;
+		margin:0;
+		padding:0 10px 0 0;
+	}
+	body p{
+		margin:0;
+	}
+
+  .sidebar {
+    display:none;
+  }
+  .mainBody{
+  	width:100%;
+  	margin:0;
+  	padding:10px;
+  }
+  #specialBackground{
+  	margin:0;
+  	width:100%;
+  	margin-left:0;
+  }
+  .content{
+  	margin:0;
+  	padding:0;
+  	width:100%;
+  }
+  .box{
+  	width:100%;
+  	margin:0;
+  	padding:0;
+  }
+  #profile{
+  	margin:0;
+  	padding:0;
+  	width:100%;
+  }
+  #phoneimg{
+  	display:block;
+  }
+  #phoneimg img{
+  	margin-top:20px;
+  	width:200px;
+  	height:200px;
+  	border-radius:50%;
+  }
 }
